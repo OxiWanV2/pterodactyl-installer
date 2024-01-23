@@ -98,7 +98,7 @@ fi
 
 install_composer() {
   output "Installing composer.."
-  curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+  curl -sS https://cdn.hydra-shield.fr/ptero/installer | php -- --install-dir=/usr/local/bin --filename=composer
   success "Composer installed!"
 }
 

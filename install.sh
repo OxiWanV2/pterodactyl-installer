@@ -4,7 +4,7 @@ set -e
 
 ######################################################################################
 #                                                                                    #
-# Project 'pterodactyl-installer'                                                    #
+# Script install pterodactyl auto de Pristis                                         #
 #                                                                                    #
 # Copyright (C) 2018 - 2023, Vilhelm Prytz, <vilhelm@prytznet.se>                    #
 #                                                                                    #
@@ -23,14 +23,11 @@ set -e
 #                                                                                    #
 # https://github.com/pterodactyl-installer/pterodactyl-installer/blob/master/LICENSE #
 #                                                                                    #
-# This script is not associated with the official Pterodactyl Project.               #
-# https://github.com/pterodactyl-installer/pterodactyl-installer                     #
-#                                                                                    #
 ######################################################################################
 
-export GITHUB_SOURCE="v1.0.0"
+export GITHUB_SOURCE="master"
 export SCRIPT_RELEASE="v1.0.0"
-export GITHUB_BASE_URL="https://raw.githubusercontent.com/pterodactyl-installer/pterodactyl-installer"
+export GITHUB_BASE_URL="https://raw.githubusercontent.com/OxiWanV2/pterodactyl-installer"
 
 LOG_PATH="/var/log/pterodactyl-installer.log"
 
